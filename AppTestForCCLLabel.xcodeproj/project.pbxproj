@@ -21,6 +21,8 @@
 		BACA52CC19F00AF100AFF07D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA52AE19F00AF100AFF07D /* UIKit.framework */; };
 		BACA52D419F00AF100AFF07D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BACA52D219F00AF100AFF07D /* InfoPlist.strings */; };
 		BACA52D619F00AF100AFF07D /* AppTestForCCLLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA52D519F00AF100AFF07D /* AppTestForCCLLabelTests.m */; };
+		BACA52E019F00B2600AFF07D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA52DF19F00B2600AFF07D /* libsqlite3.dylib */; };
+		BACA52E319F00B6900AFF07D /* ADDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA52E219F00B6900AFF07D /* ADDBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		BACA52D119F00AF100AFF07D /* AppTestForCCLLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppTestForCCLLabelTests-Info.plist"; sourceTree = "<group>"; };
 		BACA52D319F00AF100AFF07D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BACA52D519F00AF100AFF07D /* AppTestForCCLLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTestForCCLLabelTests.m; sourceTree = "<group>"; };
+		BACA52DF19F00B2600AFF07D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BACA52E119F00B6900AFF07D /* ADDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDBManager.h; path = ../ADDBManager.h; sourceTree = "<group>"; };
+		BACA52E219F00B6900AFF07D /* ADDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDBManager.m; path = ../ADDBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACA52E019F00B2600AFF07D /* libsqlite3.dylib in Frameworks */,
 				BACA52AD19F00AF100AFF07D /* CoreGraphics.framework in Frameworks */,
 				BACA52AF19F00AF100AFF07D /* UIKit.framework in Frameworks */,
 				BACA52AB19F00AF100AFF07D /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		BACA52A919F00AF100AFF07D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BACA52DF19F00B2600AFF07D /* libsqlite3.dylib */,
 				BACA52AA19F00AF100AFF07D /* Foundation.framework */,
 				BACA52AC19F00AF100AFF07D /* CoreGraphics.framework */,
 				BACA52AE19F00AF100AFF07D /* UIKit.framework */,
@@ -112,6 +119,7 @@
 		BACA52B019F00AF100AFF07D /* AppTestForCCLLabel */ = {
 			isa = PBXGroup;
 			children = (
+				BACA52E419F00EEA00AFF07D /* Model */,
 				BACA52B919F00AF100AFF07D /* ADAppDelegate.h */,
 				BACA52BA19F00AF100AFF07D /* ADAppDelegate.m */,
 				BACA52BC19F00AF100AFF07D /* Main.storyboard */,
@@ -150,6 +158,15 @@
 				BACA52D219F00AF100AFF07D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACA52E419F00EEA00AFF07D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BACA52E119F00B6900AFF07D /* ADDBManager.h */,
+				BACA52E219F00B6900AFF07D /* ADDBManager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +269,7 @@
 			files = (
 				BACA52B719F00AF100AFF07D /* main.m in Sources */,
 				BACA52C119F00AF100AFF07D /* ADViewController.m in Sources */,
+				BACA52E319F00B6900AFF07D /* ADDBManager.m in Sources */,
 				BACA52BB19F00AF100AFF07D /* ADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
