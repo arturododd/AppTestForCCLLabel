@@ -24,6 +24,7 @@
 		BACA52E019F00B2600AFF07D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA52DF19F00B2600AFF07D /* libsqlite3.dylib */; };
 		BACA52E319F00B6900AFF07D /* ADDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA52E219F00B6900AFF07D /* ADDBManager.m */; };
 		BACA52E619F0148200AFF07D /* sampledb.sql in Resources */ = {isa = PBXBuildFile; fileRef = BACA52E519F0148200AFF07D /* sampledb.sql */; };
+		BACA52E919F04CC100AFF07D /* ADEditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA52E819F04CC100AFF07D /* ADEditInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		BACA52E119F00B6900AFF07D /* ADDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDBManager.h; path = ../ADDBManager.h; sourceTree = "<group>"; };
 		BACA52E219F00B6900AFF07D /* ADDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDBManager.m; path = ../ADDBManager.m; sourceTree = "<group>"; };
 		BACA52E519F0148200AFF07D /* sampledb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampledb.sql; sourceTree = "<group>"; };
+		BACA52E719F04CC100AFF07D /* ADEditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADEditInfoViewController.h; sourceTree = "<group>"; };
+		BACA52E819F04CC100AFF07D /* ADEditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADEditInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				BACA52B919F00AF100AFF07D /* ADAppDelegate.h */,
 				BACA52BA19F00AF100AFF07D /* ADAppDelegate.m */,
 				BACA52BC19F00AF100AFF07D /* Main.storyboard */,
+				BACA52E719F04CC100AFF07D /* ADEditInfoViewController.h */,
+				BACA52E819F04CC100AFF07D /* ADEditInfoViewController.m */,
 				BACA52BF19F00AF100AFF07D /* ADViewController.h */,
 				BACA52C019F00AF100AFF07D /* ADViewController.m */,
 				BACA52C219F00AF100AFF07D /* Images.xcassets */,
@@ -275,6 +280,7 @@
 				BACA52C119F00AF100AFF07D /* ADViewController.m in Sources */,
 				BACA52E319F00B6900AFF07D /* ADDBManager.m in Sources */,
 				BACA52BB19F00AF100AFF07D /* ADAppDelegate.m in Sources */,
+				BACA52E919F04CC100AFF07D /* ADEditInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +485,7 @@
 				BACA52DB19F00AF100AFF07D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BACA52DC19F00AF100AFF07D /* Build configuration list for PBXNativeTarget "AppTestForCCLLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +494,7 @@
 				BACA52DE19F00AF100AFF07D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
