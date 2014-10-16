@@ -23,6 +23,7 @@
 		BACA52D619F00AF100AFF07D /* AppTestForCCLLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA52D519F00AF100AFF07D /* AppTestForCCLLabelTests.m */; };
 		BACA52E019F00B2600AFF07D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BACA52DF19F00B2600AFF07D /* libsqlite3.dylib */; };
 		BACA52E319F00B6900AFF07D /* ADDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA52E219F00B6900AFF07D /* ADDBManager.m */; };
+		BACA52E619F0148200AFF07D /* sampledb.sql in Resources */ = {isa = PBXBuildFile; fileRef = BACA52E519F0148200AFF07D /* sampledb.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		BACA52DF19F00B2600AFF07D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BACA52E119F00B6900AFF07D /* ADDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADDBManager.h; path = ../ADDBManager.h; sourceTree = "<group>"; };
 		BACA52E219F00B6900AFF07D /* ADDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADDBManager.m; path = ../ADDBManager.m; sourceTree = "<group>"; };
+		BACA52E519F0148200AFF07D /* sampledb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampledb.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			children = (
 				BACA52E119F00B6900AFF07D /* ADDBManager.h */,
 				BACA52E219F00B6900AFF07D /* ADDBManager.m */,
+				BACA52E519F0148200AFF07D /* sampledb.sql */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			files = (
 				BACA52C319F00AF100AFF07D /* Images.xcassets in Resources */,
 				BACA52B519F00AF100AFF07D /* InfoPlist.strings in Resources */,
+				BACA52E619F0148200AFF07D /* sampledb.sql in Resources */,
 				BACA52BE19F00AF100AFF07D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
